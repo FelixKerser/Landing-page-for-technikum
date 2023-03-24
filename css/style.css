@@ -1,0 +1,183 @@
+*{
+    font-family:sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+body{
+    background:brown;
+}
+
+li{
+    list-style-type:none;
+}
+
+.header-pc{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:20px;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+}
+
+.header-logo__wrapper img{
+    width:100px;
+}
+
+.header__ul{
+    display:flex;
+    margin-right:55px;
+}
+
+.header__li{
+    margin-left:15px;
+}
+
+.first-child-header{
+    margin-left:0;
+}
+
+.last-child-header{
+    color:#301186;
+}
+
+.header__ul a{
+    text-decoration: none;
+    color:white;
+    transition: .2s;
+}
+
+.header__ul a:hover{
+    text-decoration: none;
+    color:#FFCC00;
+}
+
+.first-block__wrapper{
+    background: rgb(247,76,6);
+    background: linear-gradient(90deg, rgba(247,76,6,1) 0%, rgba(249,188,44,1) 100%);
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.first-block__osnowa{
+    height:90%;
+    width:70%;
+    background:#182A15;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+.first-block-ne-osnowa{
+    background:white;
+    height: 100%;
+    width: 20%;
+    margin-bottom: 100px;
+    position:relative;
+}
+
+.first-block__title{
+    margin-left:150px;
+}
+
+.fb-technik{
+    font-family: 'Rubik', sans-serif;
+    font-size:65px;
+}
+
+.fb-architektury{
+    font-size:72px;
+    color:#FBE673;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.fb-krajobrazu{
+    font-size:72px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    background:#2B8673;
+    width:80vw;
+    padding-left:25px;
+}
+
+.fb-o-kierunek{
+    margin-top:40px;
+    font-size:26px;
+}
+
+.zapisz-ile{
+    margin-top:26px;
+    display: flex;
+    align-items: center;
+    margin-left:80px;
+}
+
+.zapisz-sie a{
+    text-decoration: none;
+    color:white;
+    font-size:24px;
+    background-color:#291CA1;
+    border-radius:10px;
+    padding:10px 35px;
+    border:1px solid black;
+}
+
+.ile-block-cifra{
+    font-size:48px;
+    color:#FFF933;
+}
+
+.ile-block-text{
+    color:#FFF933;
+    font-size:16px;
+    text-align: center;
+}
+
+.fb-ile{
+    display: flex;
+    border:2px;
+    border:1px dotted #FF9E12;
+    margin-left:40px;
+    padding:15px 38px 10px 38px;
+}
+
+.ile-block-first-child{
+    margin-right:35px;
+}
+
+.fb-ile-block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.absolute-fb-img__wrapper{
+    position:absolute;
+    left:80px;
+    bottom:-10px;
+}
+
+.absolute-fb-img__wrapper img{
+    width:500px;
+}
+
+.absolute-fb-no__wrapper{
+    position:absolute;
+    right:-60%;
+    bottom:-18%;
+}
+
+.absolute-fb-no__wrapper img{
+    width:800px;
+}
