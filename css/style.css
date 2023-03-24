@@ -6,6 +6,7 @@
 
 body{
     background:brown;
+    overflow-x: hidden;
 }
 
 li{
@@ -71,7 +72,7 @@ li{
 
 .first-block__osnowa{
     height:90%;
-    width:70%;
+    width:60%;
     background:#182A15;
     display: flex;
     align-items: center;
@@ -92,11 +93,11 @@ li{
 
 .fb-technik{
     font-family: 'Rubik', sans-serif;
-    font-size:65px;
+    font-size:75px;
 }
 
 .fb-architektury{
-    font-size:72px;
+    font-size:82px;
     color:#FBE673;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
@@ -107,7 +108,7 @@ li{
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     background:#2B8673;
-    width:80vw;
+    width:55vw;
     padding-left:25px;
 }
 
@@ -164,7 +165,7 @@ li{
 
 .absolute-fb-img__wrapper{
     position:absolute;
-    left:80px;
+    left:190px;
     bottom:-10px;
 }
 
@@ -180,4 +181,17 @@ li{
 
 .absolute-fb-no__wrapper img{
     width:800px;
+}
+
+.second-block__wrapper{
+    background:white;
+    padding:44px 20px;
+}
+
+.second-block__title{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color:#2A419F;
+    font-size:48px;
 }
