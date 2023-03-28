@@ -29,6 +29,9 @@ li{
 
 .header-logo__wrapper img{
     width:100px;
+    padding:15px;
+    border-radius: 50%;
+    background-color:white;
 }
 
 .header__ul{
@@ -194,4 +197,124 @@ li{
     font-weight: bold;
     color:#2A419F;
     font-size:48px;
+}
+
+.sbc-block{
+    background-color:#303681;
+    width:420px;
+    border-radius:15px;
+}
+
+.sbc-block-first__title{
+    text-align: center;
+    font-size:36px;
+    font-family: 'Rubik', sans-serif;
+    color:#E2CA13;
+    padding:15px 0;
+}
+
+.sbc-block-content__list-popups{
+    background-color:white;
+    -webkit-box-shadow: 17px 22px 24px -23px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 17px 22px 24px -23px rgba(66, 68, 90, 1);
+    box-shadow: 17px 22px 24px -23px rgba(66, 68, 90, 1);
+    padding-top:30px;
+    padding-bottom:130px;
+    border-radius:20px 20px 0 0;
+    position: relative;
+}
+
+.sbclp-element{
+    padding:15px 15px;
+}
+
+.sbclp-element a{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sbclp-element div{
+    color:#20154E;
+    font-size:20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.sbclp-element .sbclp-logo{
+    width:50px;
+    height: 50px;
+}
+
+.sbclp-element .sbclp-arrow{
+    width:20px;
+    height: 20px;
+    transform:rotate(90deg);
+}
+
+.ogrod-pip{
+    position:absolute;
+    bottom:-45%;
+    right:15%;
+}
+
+.ogrod-pip img{
+    width:280px;
+    transform: rotate(90deg);
+}
+
+.second-block__content{
+    display:flex;
+    justify-content: space-around;
+}
+
+.sbc-block-second__title{
+    padding:30px 0;
+}
+
+.sbcdnc-text{
+    color:#20154E;
+    text-align: center;
+}
+
+.sbc-block-drugi-content{
+    position:relative;
+}
+
+.sbc-drugi-ncontent{
+    background-color:white;
+    -webkit-box-shadow: 17px 22px 24px -23px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 17px 22px 24px -23px rgba(66, 68, 90, 1);
+    box-shadow: 17px 22px 24px -23px rgba(66, 68, 90, 1);
+    padding-top:30px;
+    padding-bottom:130px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:20px 20px 0 0;
+    z-index: 1;
+    position: relative;
+    margin-top:100px;
+}
+
+.sbc-strannyi-img{
+    position:absolute;
+    z-index: 0;
+    top:-100px;
+}
+
+.sbc-strannyi-img img{
+    width:100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.sbcdbc-two-images{
+    display:flex;
+    justify-content: space-between;
+    margin-top:45px;
+}
+
+.sbcdbc-two-images img{
+    width:150px;
+    height:150px;
+    border-radius:20px;
 }
