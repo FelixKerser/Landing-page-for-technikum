@@ -516,3 +516,15 @@ li{
     color:#100F3E;
     font-weight: bold;
 }
+
+.fb-images-rzad{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.fb-images-rzad a img{
+    width:100%;
+}
