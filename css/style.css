@@ -202,7 +202,8 @@ li{
 .sbc-block{
     background-color:#303681;
     width:420px;
-    border-radius:15px;
+    border-radius:25px;
+    min-height:100%;
 }
 
 .sbc-block-first__title{
@@ -266,6 +267,7 @@ li{
 .second-block__content{
     display:flex;
     justify-content: space-around;
+    margin-top:35px;
 }
 
 .sbc-block-second__title{
@@ -287,7 +289,7 @@ li{
     -moz-box-shadow: 17px 22px 24px -23px rgba(66, 68, 90, 1);
     box-shadow: 17px 22px 24px -23px rgba(66, 68, 90, 1);
     padding-top:30px;
-    padding-bottom:130px;
+    padding-bottom:140px;
     padding-left:30px;
     padding-right:30px;
     border-radius:20px 20px 0 0;
@@ -310,11 +312,207 @@ li{
 .sbcdbc-two-images{
     display:flex;
     justify-content: space-between;
-    margin-top:45px;
+    margin-top:90px;
 }
 
 .sbcdbc-two-images img{
     width:150px;
     height:150px;
     border-radius:20px;
+}
+
+.sbcdbc-pisaki{
+    transform: rotate(-90deg);
+    margin-top:-70px;
+}
+
+.sbcdbc-pisaki img{
+    width:250px;
+}
+
+.sbc-block-trzeci-ncontent{
+    margin-bottom: 30px;
+    padding-bottom: 0;
+    border-radius:20px;
+}
+
+.sbcdnc-text-trzeci{
+    font-size:21px;
+}
+
+.sbc-prawdziwy-drugi-content{
+    padding-top: 50px;
+}
+
+.third-block__osnowa{
+    background:rgba(0,0,0,0);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.third-block-ne-osnowa{
+    background:rgba(0,0,0,0);
+}
+
+.third-block-ne-osnowa .absolute-fb-no__wrapper{
+    bottom:-6%;
+}
+
+.tb-o-kierunku__wrapper{
+    background:rgba(255, 255, 255, .3);
+    padding:5px 0 5px 5px;
+}
+
+.tbok__title{
+    font-size:48px;
+    font-family:"Rubik";
+    color:#B20505;
+    font-weight: bold;
+    margin-bottom:35px;
+}
+
+.tbok__text{
+    font-size:36px;
+    font-family:"Arial";
+    color:white;
+    font-weight: bold;
+}
+
+.tb-rekrutacja-gdzie__wrapper{
+    display:flex;
+    align-items: center;
+}
+
+.tb-rekrutacja{
+    margin-right:53px;
+}
+
+.tb-rekrutacja a{
+    color:white;
+    font-size:36px;
+    font-family:'Arial';
+    background:#1FB93D;
+    text-decoration: none;
+    transition:.2s;
+    padding:10px 15px;
+    border-radius:25px;
+}
+
+.tb-rekrutacja a:hover{
+    background:rgb(22, 131, 44);
+}
+
+.tb-gdzie a{
+    font-size:23px;
+    color:#0B279A;
+    font-family:'Rubik';
+    text-decoration: none;
+}
+
+.tb-gdzie{
+    position:relative;
+}
+
+.tb-gdzie::after{
+    content:'';
+    width:0;
+    height:2px;
+    position:absolute;
+    background-color:#308832;
+    left:0;
+    bottom:0;
+    transition:.2s;
+}
+
+.tb-gdzie:hover:after{
+    width:98%;
+}
+
+.tb-lorem-ryba{
+    font-size:20px;
+    width:70%;
+}
+
+.fifth-block__wrapper{
+    height: 100vh;
+    width: 100%;
+    background:url(../img/artysta3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fifth-block-duzy-text__wrapper{
+    background:rgba(255,255,255,.7);
+    font-size:37px;
+    font-family:'Rubik';
+    font-weight: Bold;
+    text-align: center;
+    padding:5px 25px;
+}
+
+.fbdt-second{
+    margin-top:30px;
+    margin-bottom:35px;
+}
+
+.fifth-block-maly-text__wrapper{
+    margin-top:15px;
+    background:#701C1C;
+    font-size:35px;
+    font-family:'Rubik';
+    color:white;
+}
+
+.sixth-block__wrapper{
+    height:60vh;
+    background:linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url(https://www.biznesowa-polska.pl/wp-content/uploads/2023/01/trawa-pampasowa-na-balkonie.jpg);;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    padding-top:180px;
+}
+
+.sb-logo__wrapper{
+    position:absolute;
+    border: 20px solid white;
+    border-radius: 100%;
+    margin-left: -100px;
+    top:-50px; left: 49%;
+    background:white;
+}
+
+.sb-logo__wrapper img{
+    width:200px;
+    height:200px;
+}
+
+.sixth-block-info__wrapper{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.sbi-maly-trawa img{
+    width: 400px;
+}
+
+.sbi-duzy-text__wrapper{
+    font-family:'Arial';
+    font-size: 70px;
+    color:#100F3E;
+    font-weight: bold;
+}
+
+.sbi-maly-text__wrapper{
+    font-family:'Arial';
+    font-size: 48px;
+    color:#100F3E;
+    font-weight: bold;
 }
