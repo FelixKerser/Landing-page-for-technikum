@@ -528,3 +528,153 @@ li{
 .fb-images-rzad a img{
     width:100%;
 }
+
+#first-slide, #trzeci-slide, #piaty-slide{
+    position:relative;
+}
+
+.disk-light{
+    color:#4A0707;
+    font-size:72px;
+    text-align: center;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    height:30%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255,255,255, .72);
+    top:30%;
+}
+
+.popup-architektoniczne__wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    /* opacity: 0;
+    pointer-events: none;  */
+    transition: 0.5s all;
+    z-index: 200;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.popup-architektoniczne__wrapper.active{
+    opacity: 1;
+    pointer-events: all; 
+    transition: 0.5s all;
+}
+
+.popup-architektoniczne{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%) scale(0); */
+    /* width: 400px; */
+    padding: 25px;
+    transition: 0.5s all;
+}
+
+.popup-architektoniczne.active{
+    transform: translate(-50%, -50%) scale(1);
+    transition: 0.5s all;
+}
+
+.block-without-bg{
+    background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(222,196,136,1) 100%);
+    padding:80px 50px 10px 75px;
+}
+
+.block-with-bg{
+    background-image:url(../img/architekt1.jpg);
+    padding:80px 75px 10px 0px;
+    width: 450px;
+}
+
+.popup-konczennye{
+    position:absolute;
+    width:100%;
+    /* display: flex; */
+}
+
+.logo-kursa img{
+    width:50px;
+}
+
+.logo-kursa{
+    position: absolute;
+    left:15px;
+    top:15px;
+}
+
+.nazwanie-kursa{
+    font-family:'Rubik';
+    color:#B20505;
+    font-size:32px;
+    font-weight:bold;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    top: 20px;
+}
+
+.zbu-img img{
+    width:520px;
+}
+
+.zbu-img{
+    margin-bottom:-10px;
+}
+
+.zbu-text{
+    font-size:48px;
+    background-color:#451010;
+    font-family:'Rubik';
+    color:white;
+    text-align: center;
+}
+
+.co-bedziemy-uczyc, .mz-ul{
+    padding-left:0;
+}
+
+.element-uczenia{
+    color:#200C77;
+    font-size:18px;
+    padding:15px 0 15px 0;
+}
+
+.element-uczenia:last-child{
+    padding:15px 0 0 0;
+}
+
+.mega-zajebalo__wrapper{
+    background:rgba(255,255,255,.9);
+    padding:50px 50px 90px 50px;
+    width:88%;
+    position:relative;
+}
+
+.close-popup-button-arch{
+    position:absolute;
+    right:15px;
+    top:15px;
+}
+
+.mz-li{
+    font-size:32px;
+    font-weight: bold;
+    padding:20px 0 20px 0;
+}
+
+.otworzyc-arch, .close-popup-button-arch{
+    cursor: pointer;
+}
