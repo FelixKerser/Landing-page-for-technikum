@@ -108,12 +108,98 @@
     .first-block__wrapper {
         height: 48vh;
     }
+
+    .header-pc, .fb-ile{
+        display:none;
+    }
+
+    .first-block__title{
+        margin-left: 55px;
+    }
+
+    .first-block__osnowa{
+        align-items: flex-start;
+    }
+
+    .first-block__title{
+        margin-top:50px;
+    }
+
+    .fb-o-kierunek{
+        font-size: 28px;
+    }
+
+    .zapisz-sie a {
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-device-width: 450px) {
     .first-block__wrapper {
         height: 35vh;
     }
+
+    .second-block__content{
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr; 
+            gap: 0px 0px; 
+            grid-template-areas: 
+              "pierwsza druga"
+              "trzeca trzeca"; 
+              justify-items: center;
+    }
+
+    .sbc-block {
+        width: 470px;
+        margin-bottom:30px;
+    }
+
+    .ogrod-pip {
+        bottom: -28%;
+        right: 26%;
+    }
+
+    .sbclp-element div{
+        font-size: 32px;
+    }
+
+    .sbcdnc-text{
+        font-size: 30px;
+    }
+
+    .sbcdbc-two-images img {
+        width: 192px;
+        height: 192px;}
+
+        .sbcdbc-pisaki img {
+            width: 279px;
+        }
+
+        .trzeca{
+            margin-top:50px;
+        }
+
+        .sbc-block-content__list-popups{
+            height:640px;
+        }
+
+        .ogrod-pip img {
+            width: 316px;
+        }
+
+        .ogrod-pip {
+            bottom: -30%;
+            right: 20%;
+        }
+
+        .tbok__title {
+            font-size: 59px;
+        }
+
+        .tb-lorem-ryba{
+            display:none;
+        }
 }
 
 @media screen and (max-device-width: 380px) {

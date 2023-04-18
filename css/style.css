@@ -718,3 +718,12 @@ li{
 .popup-artystyczne .zbu-text{
     background:#101845;
 }
+
+
+.absolute-fb-img__wrapper{
+    pointer-events: none;
+}
+
+.pierwsza { grid-area: pierwsza; }
+.druga { grid-area: druga; }
+.trzeca { grid-area: trzeca;}
