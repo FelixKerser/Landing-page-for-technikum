@@ -257,6 +257,7 @@ li{
     position:absolute;
     bottom:-45%;
     right:15%;
+    pointer-events: none;
 }
 
 .ogrod-pip img{
@@ -549,7 +550,7 @@ li{
     top:30%;
 }
 
-.popup-architektoniczne__wrapper{
+.popup-architektoniczne__wrapper, .popup-techniczne__wrapper, .popup-przyrodnicze__wrapper, .popup-artystyczne__wrapper{
     position: fixed;
     top: 0;
     left: 0;
@@ -564,13 +565,13 @@ li{
     opacity: 0;
 }
 
-.popup-architektoniczne__wrapper.active{
+.popup-architektoniczne__wrapper.active, .popup-techniczne__wrapper.active, .popup-przyrodnicze__wrapper.active, .popup-artystyczne__wrapper.active{
     opacity: 1;
     pointer-events: all; 
     transition: 0.5s all;
 }
 
-.popup-architektoniczne{
+.popup-architektoniczne, .popup-techniczne, .popup-artystyczne, .popup-przyrodnicze{
     display: flex;
     position: absolute;
     top: 50%;
@@ -581,7 +582,7 @@ li{
     transition: 0.5s all;
 }
 
-.popup-architektoniczne.active{
+.popup-architektoniczne.active, .popup-techniczne.active, .popup-artystyczne.active, .popup-przyrodnicze.active{
     transform: translate(-50%, -50%) scale(1);
     transition: 0.5s all;
 }
@@ -624,6 +625,17 @@ li{
     width: 100%;
     justify-content: center;
     top: 20px;
+    z-index: 20;
+}
+
+.nazwanie-kursa::before{
+    content:'';
+    position:absolute;
+    top:0px;
+    background:rgba(255,255,255,.7);
+    width: 50%;
+    height:100%;
+    z-index: -1;
 }
 
 .zbu-img img{
@@ -677,4 +689,32 @@ li{
 
 .otworzyc-arch, .close-popup-button-arch{
     cursor: pointer;
+}
+
+.popup-techniczne .nazwanie-kursa{
+    color:#B28B05;
+}
+
+.popup-techniczne .zbu-text{
+    background:#B79215;
+}
+
+.popup-techniczne .zbu-img img{
+    width: 604px;
+}
+
+.popup-przyrodnicze .nazwanie-kursa{
+    color:#23782E;
+}
+
+.popup-przyrodnicze .zbu-text{
+    background:#387B3F;
+}
+
+.popup-artystyczne .nazwanie-kursa{
+    color:#08051E;
+}
+
+.popup-artystyczne .zbu-text{
+    background:#101845;
 }

@@ -1,0 +1,127 @@
+@media screen and (max-width: 1680px) {
+    .absolute-fb-no__wrapper{
+        right: -40%;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .absolute-fb-no__wrapper {
+        right: -40%;
+        bottom: -5%;
+    }
+    .absolute-fb-no__wrapper img {
+        width: 480px;}
+
+        .absolute-fb-img__wrapper{
+            left: 124px;
+        }
+}
+
+@media screen and (max-width: 1380px) {
+    
+}
+
+@media screen and (max-width: 1280px) {
+    .first-block-ne-osnowa{
+        display:none;
+    }
+
+    .fb-krajobrazu{
+        width: 35vw;
+    }
+
+    .last-child-header {
+        color: white;
+    }
+
+    .first-block__osnowa{
+        width: 85%;
+    }
+
+    .absolute-fb-img__wrapper {
+        left: 57px;
+    }
+
+    .absolute-fb-img__wrapper img {
+        width: 404px;
+    }
+    
+    .third-block-ne-osnowa.first-block-ne-osnowa{
+        display: block;
+    }
+    
+    .absolute-fb-no__wrapper {
+        right: 10%;
+        bottom: -5%;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .sbc-block{
+        width: 332px;
+    }
+
+    .sbc-block-trzeci-ncontent{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sbcdbc-pisaki img {
+        width: 208px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .fb-krajobrazu{
+        width: 44vw;
+    }
+
+    .ogrod-pip img{
+        width:225px;
+    }
+
+    .ogrod-pip {
+        bottom: -54%;
+        right: 19%;}
+}
+
+@media screen and (max-width: 950px) {
+    .ogrod-pip img {
+        width: 199px;
+    }
+}
+
+@media screen and (max-device-width: 740px) {
+    .first-block__wrapper{
+        height:74vh;
+    }
+
+    .fifth-block__wrapper {
+        height: 43vh;}
+}
+
+@media screen and (max-device-width: 550px) {
+    .sixth-block__wrapper {
+        height: 37vh;
+    }
+
+    .first-block__wrapper {
+        height: 48vh;
+    }
+}
+
+@media screen and (max-device-width: 450px) {
+    .first-block__wrapper {
+        height: 35vh;
+    }
+}
+
+@media screen and (max-device-width: 380px) {
+    .fifth-block__wrapper {
+        height: 26vh;
+    }
+
+    .sixth-block__wrapper {
+        height: 25vh;
+    }
+}
