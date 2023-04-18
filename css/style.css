@@ -727,3 +727,7 @@ li{
 .pierwsza { grid-area: pierwsza; }
 .druga { grid-area: druga; }
 .trzeca { grid-area: trzeca;}
+
+.header-mob{
+    display:none;
+}
